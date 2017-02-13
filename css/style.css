@@ -1,0 +1,58 @@
+/* Header*/
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 25px;
+}
+#randomWiki {
+  margin-top: 7px;
+  padding: 5px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background: whitesmoke;
+  font-family: "Shrikhand", cursive;
+  font-size: 22px;
+}
+
+/*Search Box*/
+#searchBox {
+  margin-top: 30vh;
+}
+input[type=text] {
+  width: 50%;
+  padding: 10px 10px 10px 45px;;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background: whitesmoke;
+  background-image: url("http://www.clipartkid.com/images/775/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png");
+  background-size: 22px 22px;
+  background-position: 10px 16px;
+  background-repeat: no-repeat;
+  font-family: "Lora", sans-serif;
+  font-size: 25px;
+}
+input[type=button] {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background: whitesmoke;
+  font-family: "Shrikhand", cursive;
+  font-size: 25px;
+}
+
+/*Content*/
+#content {
+  font-family: "Lora", sans-serif;
+}
+h2 {
+  font-size: 25px;
+}
+p {
+  font-size: 15px;
+}
+
+/*Footer*/
+.site-footer {
+  margin-top: 100px;
+  font-family: "Lora", sans-serif;
+}

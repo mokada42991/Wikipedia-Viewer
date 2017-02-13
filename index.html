@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+<!--Begin Header-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h1>Wikipedia-Viewer</h1>
+    </div>
+    <div class="col-md-6 text-center">
+      <a class="btn btn-default" id="randomWiki" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Wiki</a>
+    </div>
+  </div>
+</div>
+<!--End Header-->
+<div class="container">
+  <!--Begin Search Box-->
+  <div id="searchBox" class="text-center">
+    <input type="text" placeholder="Search Wikipedia.." id="userInput">
+    <input type="button" value="Go!" id="submit" onClick="search()">
+  </div>
+  <!--End Search Box-->
+  <!--Begin Content-->
+  <div id="content" style="display: none">
+    <div class="article0">
+    </div>
+    <div class="article1">
+    </div>
+    <div class="article2">
+    </div>
+    <div class="article3">
+    </div>
+    <div class="article4">
+    </div>
+    <div class="article5">
+    </div>
+    <div class="article6">
+    </div>
+    <div class="article7">
+    </div>
+    <div class="article8">
+    </div>
+    <div class="article9">
+    </div>
+  </div>
+  <!--End Content-->
+  <!--Begin Footer-->
+  <footer class="site-footer text-center">
+    <h5>Coded and designed by <a href="http://codepen.io/mokada42991/" target="_blank">Masami Okada</a> for <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a> © 2016</h5>
+  </footer>
+  <!--End Footer-->
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
